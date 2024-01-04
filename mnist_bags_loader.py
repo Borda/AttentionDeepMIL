@@ -1,7 +1,6 @@
 """Pytorch Dataset object that loads perfectly balanced MNIST dataset in bag form."""
 
 import numpy as np
-import matplotlib.pyplot as plt
 import torch
 import torch.utils.data as data_utils
 from torchvision import datasets, transforms
